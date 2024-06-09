@@ -30,12 +30,15 @@ PRODUCT_COPY_FILES += \
     vendor/askey/wade/proprietary/system_ext/lib/vendor.amlogic.hardware.subtitleserver@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.amlogic.hardware.subtitleserver@1.0.so \
     vendor/askey/wade/proprietary/vendor/etc/audio_policy_configuration_dolby_ms12.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_dolby_ms12.xml \
     vendor/askey/wade/proprietary/vendor/etc/framerate.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/framerate.cfg \
+    vendor/askey/wade/proprietary/vendor/etc/init/init.hbg.remote.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hbg.remote.rc \
     vendor/askey/wade/proprietary/vendor/etc/nrdp_audio_platform_capabilities.json:$(TARGET_COPY_OUT_VENDOR)/etc/nrdp_audio_platform_capabilities.json \
     vendor/askey/wade/proprietary/vendor/etc/nrdp_audio_platform_capabilities_ms12.json:$(TARGET_COPY_OUT_VENDOR)/etc/nrdp_audio_platform_capabilities_ms12.json \
     vendor/askey/wade/proprietary/vendor/etc/nrdp_platform_capabilities.json:$(TARGET_COPY_OUT_VENDOR)/etc/nrdp_platform_capabilities.json \
     vendor/askey/wade/proprietary/vendor/etc/permissions/droidlogic.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.core.xml \
     vendor/askey/wade/proprietary/vendor/etc/permissions/droidlogic.tv.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.tv.software.core.xml \
     vendor/askey/wade/proprietary/vendor/etc/permissions/nrdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/nrdp.xml \
+    vendor/askey/wade/proprietary/vendor/etc/remote.txt:$(TARGET_COPY_OUT_VENDOR)/etc/remote.txt \
+    vendor/askey/wade/proprietary/vendor/lib/hw/consumerir.amlogic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.amlogic.so \
     vendor/askey/wade/proprietary/vendor/lib/libSubtitleClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSubtitleClient.so \
     vendor/askey/wade/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/askey/wade/proprietary/vendor/lib/libsecmem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecmem.so \
