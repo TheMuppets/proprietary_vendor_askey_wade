@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/askey/wade/proprietary/system_ext/lib/libsubtitlemanager_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsubtitlemanager_jni.so \
     vendor/askey/wade/proprietary/system_ext/lib/libvendorfont.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvendorfont.so \
     vendor/askey/wade/proprietary/system_ext/lib/vendor.amlogic.hardware.subtitleserver@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.amlogic.hardware.subtitleserver@1.0.so \
+    vendor/askey/wade/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.amlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.amlogic \
     vendor/askey/wade/proprietary/vendor/etc/audio_policy_configuration_dolby_ms12.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_dolby_ms12.xml \
     vendor/askey/wade/proprietary/vendor/etc/framerate.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/framerate.cfg \
     vendor/askey/wade/proprietary/vendor/etc/init/init.hbg.remote.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hbg.remote.rc \
@@ -64,7 +65,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/askey/wade/proprietary/vendor/bin/hdcp_tx22:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp_tx22 \
     vendor/askey/wade/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.4-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.4-service.droidlogic \
-    vendor/askey/wade/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.amlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.amlogic \
     vendor/askey/wade/proprietary/vendor/bin/systemcontrol:$(TARGET_COPY_OUT_VENDOR)/bin/systemcontrol \
     vendor/askey/wade/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.droidlogic.rc \
     vendor/askey/wade/proprietary/vendor/etc/init/systemcontrol.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/systemcontrol.rc \
