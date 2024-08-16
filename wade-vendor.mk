@@ -53,18 +53,20 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     consumerir.amlogic \
-    libSubtitleClient \
+    libSubtitleClient_vendor \
     libnetflixplugin \
     liboemcrypto \
     libplayready \
     libplayreadymediadrmplugin \
     libsecmem \
-    libsubtitlebinder \
-    libsubtitlemanager_jni \
+    libsubtitlebinder_vendor \
+    libsubtitlemanager_jni_vendor \
     libtee_load_video_fw \
     libteec \
-    vendor.amlogic.hardware.subtitleserver@1.0 \
+    libvendorfont_vendor \
+    vendor.amlogic.hardware.subtitleserver@1.0_vendor \
     libSubtitleClient \
+    libamavutils_system_ext \
     libsubtitlebinder \
     libsubtitlemanager_jni \
     libvendorfont \

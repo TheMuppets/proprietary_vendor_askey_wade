@@ -27,7 +27,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSubtitleClient",
+	name: "libSubtitleClient_vendor",
+	stem: "libSubtitleClient",
 	owner: "askey",
 	strip: {
 		none: true,
@@ -35,7 +36,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libSubtitleClient.so"],
-			shared_libs: ["libbase", "libbinder", "libhidlbase", "libutils", "libutilscallstack", "libcutils", "liblog", "libstagefright_foundation", "libamavutils", "libsubtitlebinder", "libfmq", "libhidlmemory", "android.hidl.memory@1.0", "vendor.amlogic.hardware.subtitleserver@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "libbinder", "libhidlbase", "libutils", "libutilscallstack", "libcutils", "liblog", "libstagefright_foundation", "libamavutils", "libsubtitlebinder_vendor", "libfmq", "libhidlmemory", "android.hidl.memory@1.0", "vendor.amlogic.hardware.subtitleserver@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -129,7 +130,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsubtitlebinder",
+	name: "libsubtitlebinder_vendor",
+	stem: "libsubtitlebinder",
 	owner: "askey",
 	strip: {
 		none: true,
@@ -137,7 +139,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsubtitlebinder.so"],
-			shared_libs: ["vendor.amlogic.hardware.subtitleserver@1.0", "libbase", "libhidlbase", "liblog", "libcutils", "libutilscallstack", "libutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.amlogic.hardware.subtitleserver@1.0_vendor", "libbase", "libhidlbase", "liblog", "libcutils", "libutilscallstack", "libutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -146,7 +148,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsubtitlemanager_jni",
+	name: "libsubtitlemanager_jni_vendor",
+	stem: "libsubtitlemanager_jni",
 	owner: "askey",
 	strip: {
 		none: true,
@@ -154,7 +157,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libsubtitlemanager_jni.so"],
-			shared_libs: ["vendor.amlogic.hardware.subtitleserver@1.0", "android.hidl.memory@1.0", "libbase", "libvendorfont", "libhidlbase", "libhidlmemory", "liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.amlogic.hardware.subtitleserver@1.0_vendor", "android.hidl.memory@1.0", "libbase", "libvendorfont_vendor", "libhidlbase", "libhidlmemory", "liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -197,7 +200,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.amlogic.hardware.subtitleserver@1.0",
+	name: "libvendorfont_vendor",
+	stem: "libvendorfont",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvendorfont.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.amlogic.hardware.subtitleserver@1.0_vendor",
+	stem: "vendor.amlogic.hardware.subtitleserver@1.0",
 	owner: "askey",
 	strip: {
 		none: true,
@@ -222,7 +244,25 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/system_ext/lib/libSubtitleClient.so"],
-			shared_libs: ["libbase", "libbinder", "libhidlbase", "libutils", "libutilscallstack", "libcutils", "liblog", "libstagefright_foundation", "libamavutils", "libsubtitlebinder", "libfmq", "libhidlmemory", "android.hidl.memory@1.0", "vendor.amlogic.hardware.subtitleserver@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "libbinder", "libhidlbase", "libutils", "libutilscallstack", "libcutils", "liblog", "libstagefright_foundation", "libamavutils_system_ext", "libsubtitlebinder", "libfmq", "libhidlmemory", "android.hidl.memory@1.0", "vendor.amlogic.hardware.subtitleserver@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libamavutils_system_ext",
+	stem: "libamavutils",
+	owner: "askey",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/libamavutils.so"],
+			shared_libs: ["libutils", "libcutils", "libc", "libbinder", "liblog", "libui", "libc++", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
