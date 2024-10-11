@@ -73,7 +73,6 @@ PRODUCT_PACKAGES += \
     vendor.amlogic.hardware.subtitleserver@1.0 \
     libHwAudio_dcvdec \
     libHwAudio_dtshd \
-    DroidTvSettings \
     droidlogic-res \
     droidlogic.software.core \
     droidlogic.tv.software.core \
