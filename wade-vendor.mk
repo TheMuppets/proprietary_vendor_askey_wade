@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/askey/wade/proprietary/system_ext/etc/permissions/com.droidlogic.tv.settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.droidlogic.tv.settings.xml \
     vendor/askey/wade/proprietary/system_ext/etc/permissions/droidlogic_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/droidlogic_permissions.xml \
     vendor/askey/wade/proprietary/vendor/etc/audio_policy_configuration_dolby_ms12.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_dolby_ms12.xml \
+    vendor/askey/wade/proprietary/vendor/etc/bluetooth/bcm43569a2.hcd:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bcm43569a2.hcd \
     vendor/askey/wade/proprietary/vendor/etc/framerate.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/framerate.cfg \
     vendor/askey/wade/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.netflix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.netflix.rc \
     vendor/askey/wade/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.playready.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.playready.rc \
@@ -38,6 +39,11 @@ PRODUCT_COPY_FILES += \
     vendor/askey/wade/proprietary/vendor/etc/permissions/droidlogic.tv.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.tv.software.core.xml \
     vendor/askey/wade/proprietary/vendor/etc/permissions/nrdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/nrdp.xml \
     vendor/askey/wade/proprietary/vendor/etc/remote.txt:$(TARGET_COPY_OUT_VENDOR)/etc/remote.txt \
+    vendor/askey/wade/proprietary/vendor/firmware/wifi/config_bcm4356a2_ag.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/config_bcm4356a2_ag.txt \
+    vendor/askey/wade/proprietary/vendor/firmware/wifi/fw_bcm4356a2_ag.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/fw_bcm4356a2_ag.bin \
+    vendor/askey/wade/proprietary/vendor/firmware/wifi/fw_bcm4356a2_ag_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/fw_bcm4356a2_ag_apsta.bin \
+    vendor/askey/wade/proprietary/vendor/firmware/wifi/fw_bcm4356a2_ag_p2p.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/fw_bcm4356a2_ag_p2p.bin \
+    vendor/askey/wade/proprietary/vendor/firmware/wifi/nvram_ap6356.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/nvram_ap6356.txt \
     vendor/askey/wade/proprietary/vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta \
     vendor/askey/wade/proprietary/vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta \
     vendor/askey/wade/proprietary/vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta \
