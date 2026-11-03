@@ -29,11 +29,11 @@ PRODUCT_COPY_FILES += \
     vendor/askey/wade/proprietary/vendor/etc/permissions/droidlogic.software.netflix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.netflix.xml \
     vendor/askey/wade/proprietary/vendor/etc/permissions/droidlogic.tv.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.tv.software.core.xml \
     vendor/askey/wade/proprietary/vendor/etc/remote.txt:$(TARGET_COPY_OUT_VENDOR)/etc/remote.txt \
-    vendor/askey/wade/proprietary/vendor/firmware/wifi/config_bcm4356a2_ag.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/config_bcm4356a2_ag.txt \
-    vendor/askey/wade/proprietary/vendor/firmware/wifi/fw_bcm4356a2_ag.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/fw_bcm4356a2_ag.bin \
-    vendor/askey/wade/proprietary/vendor/firmware/wifi/fw_bcm4356a2_ag_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/fw_bcm4356a2_ag_apsta.bin \
-    vendor/askey/wade/proprietary/vendor/firmware/wifi/fw_bcm4356a2_ag_p2p.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/fw_bcm4356a2_ag_p2p.bin \
-    vendor/askey/wade/proprietary/vendor/firmware/wifi/nvram_ap6356.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/nvram_ap6356.txt \
+    vendor/askey/wade/proprietary/vendor/lib/firmware/config_bcm4356a2_ag.txt:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/config_bcm4356a2_ag.txt \
+    vendor/askey/wade/proprietary/vendor/lib/firmware/fw_bcm4356a2_ag.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/fw_bcm4356a2_ag.bin \
+    vendor/askey/wade/proprietary/vendor/lib/firmware/fw_bcm4356a2_ag_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/fw_bcm4356a2_ag_apsta.bin \
+    vendor/askey/wade/proprietary/vendor/lib/firmware/fw_bcm4356a2_ag_p2p.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/fw_bcm4356a2_ag_p2p.bin \
+    vendor/askey/wade/proprietary/vendor/lib/firmware/nvram_ap6356.txt:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/nvram_ap6356.txt \
     vendor/askey/wade/proprietary/vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta \
     vendor/askey/wade/proprietary/vendor/lib/teetz/1987f328-1755-9321-5441-43494343544c.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/1987f328-1755-9321-5441-43494343544c.ta \
     vendor/askey/wade/proprietary/vendor/lib/teetz/2088528d-102a-4716-b940-23fd9be04adf.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/2088528d-102a-4716-b940-23fd9be04adf.ta \
