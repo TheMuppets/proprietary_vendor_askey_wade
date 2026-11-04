@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libGLES_mali \
-    consumerir.amlogic \
     libSubtitleClient_vendor \
     libnetflixplugin \
     liboemcrypto \
