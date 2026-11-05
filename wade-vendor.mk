@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/askey/wade/proprietary/vendor/etc/init/tee_key_inject.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_key_inject.rc \
     vendor/askey/wade/proprietary/vendor/etc/init/tee_preload_fw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_preload_fw.rc \
     vendor/askey/wade/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.amlogic.xml \
+    vendor/askey/wade/proprietary/vendor/etc/permissions/droidlogic.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.core.xml \
     vendor/askey/wade/proprietary/vendor/etc/permissions/droidlogic.software.netflix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.software.netflix.xml \
     vendor/askey/wade/proprietary/vendor/etc/permissions/droidlogic.tv.software.core.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/droidlogic.tv.software.core.xml \
     vendor/askey/wade/proprietary/vendor/etc/remote.txt:$(TARGET_COPY_OUT_VENDOR)/etc/remote.txt \
@@ -67,6 +68,7 @@ PRODUCT_PACKAGES += \
     libvendorfont \
     vendor.amlogic.hardware.subtitleserver@1.0 \
     droidlogic-res \
+    droidlogic.software.core \
     droidlogic.tv.software.core \
     android.hardware.oemlock@1.0-service.droidlogic.xml \
     android.hardware.security.keymint-service-no-rkp.amlogic.xml \
