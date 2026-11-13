@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/askey/wade/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.playready.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.playready.rc \
     vendor/askey/wade/proprietary/vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc \
     vendor/askey/wade/proprietary/vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.amlogic.rc \
+    vendor/askey/wade/proprietary/vendor/etc/init/hdcp_tx22.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hdcp_tx22.rc \
     vendor/askey/wade/proprietary/vendor/etc/init/init.hbg.remote.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hbg.remote.rc \
     vendor/askey/wade/proprietary/vendor/etc/init/subtitleserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/subtitleserver.rc \
     vendor/askey/wade/proprietary/vendor/etc/init/tee-supplicant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee-supplicant.rc \
@@ -74,6 +75,7 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service-no-rkp.amlogic.xml \
     manifest_android.hardware.drm@1.4-service.playready.xml \
     vendor.amlogic.hardware.subtitleserver@1.0.xml \
+    hdcp_tx22 \
     android.hardware.drm@1.4-service.playready \
     android.hardware.oemlock@1.0-service.droidlogic \
     android.hardware.security.keymint-service.amlogic \
